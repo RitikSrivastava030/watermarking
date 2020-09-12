@@ -8,7 +8,7 @@ Created on Mon Apr 20 23:25:41 2020
 import cv2
 import pywt
 import numpy as np
-import crypt_img
+import crypt
 #import net_2
 
 class Components:
