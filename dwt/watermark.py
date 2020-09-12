@@ -217,7 +217,7 @@ if __name__=='__main__':
             watermarking.watermark(img=x,path_save=None)
             z=int(input("Do you want to add a UID?(Press 1 for Yes/0-NO)"))
             if z==1:
-                crypt_img.main()
+                crypt.main()
             print("-------Thank you.. you can now transmit the watermarked image-----")
         
         elif w==2:
@@ -236,7 +236,7 @@ if __name__=='__main__':
             enc=int(input("Have u sent an image with UID?(Press 1-Yes,0-NO)-"))
             if enc==1:
                 enc_img=input("Enter the path of the encoded image-")
-                crypt_img.decode(enc_img)
+                crypt.decode(enc_img)
         conti=input("Do you wish to continue?-")
         if conti=="yes":
              continue
